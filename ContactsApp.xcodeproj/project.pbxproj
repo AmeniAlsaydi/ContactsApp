@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		B7B53DC0255F0B2800F672F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B53DBF255F0B2800F672F3 /* AppDelegate.swift */; };
 		B7B53DC2255F0B2800F672F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B53DC1255F0B2800F672F3 /* SceneDelegate.swift */; };
-		B7B53DC4255F0B2800F672F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B53DC3255F0B2800F672F3 /* ViewController.swift */; };
+		B7B53DC4255F0B2800F672F3 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B53DC3255F0B2800F672F3 /* ContactsViewController.swift */; };
 		B7B53DC7255F0B2800F672F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B53DC5255F0B2800F672F3 /* Main.storyboard */; };
 		B7B53DC9255F0B2D00F672F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B53DC8255F0B2D00F672F3 /* Assets.xcassets */; };
 		B7B53DCC255F0B2D00F672F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B53DCA255F0B2D00F672F3 /* LaunchScreen.storyboard */; };
 		B7B53DD7255F0B2D00F672F3 /* ContactsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B53DD6255F0B2D00F672F3 /* ContactsAppTests.swift */; };
 		B7B53DE2255F0B2D00F672F3 /* ContactsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B53DE1255F0B2D00F672F3 /* ContactsAppUITests.swift */; };
 		B7B53DF6255F0EA600F672F3 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B53DF5255F0EA600F672F3 /* Contacts.swift */; };
+		B7B53E01255F249800F672F3 /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B53E00255F249800F672F3 /* NewContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		B7B53DBC255F0B2800F672F3 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B53DBF255F0B2800F672F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B53DC1255F0B2800F672F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7B53DC3255F0B2800F672F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7B53DC3255F0B2800F672F3 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		B7B53DC6255F0B2800F672F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7B53DC8255F0B2D00F672F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7B53DCB255F0B2D00F672F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		B7B53DE1255F0B2D00F672F3 /* ContactsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITests.swift; sourceTree = "<group>"; };
 		B7B53DE3255F0B2D00F672F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7B53DF5255F0EA600F672F3 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		B7B53E00255F249800F672F3 /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,8 @@
 			children = (
 				B7B53DBF255F0B2800F672F3 /* AppDelegate.swift */,
 				B7B53DC1255F0B2800F672F3 /* SceneDelegate.swift */,
-				B7B53DC3255F0B2800F672F3 /* ViewController.swift */,
+				B7B53DC3255F0B2800F672F3 /* ContactsViewController.swift */,
+				B7B53E00255F249800F672F3 /* NewContactViewController.swift */,
 				B7B53DF5255F0EA600F672F3 /* Contacts.swift */,
 				B7B53DC5255F0B2800F672F3 /* Main.storyboard */,
 				B7B53DC8255F0B2D00F672F3 /* Assets.xcassets */,
@@ -262,7 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B53DF6255F0EA600F672F3 /* Contacts.swift in Sources */,
-				B7B53DC4255F0B2800F672F3 /* ViewController.swift in Sources */,
+				B7B53E01255F249800F672F3 /* NewContactViewController.swift in Sources */,
+				B7B53DC4255F0B2800F672F3 /* ContactsViewController.swift in Sources */,
 				B7B53DC0255F0B2800F672F3 /* AppDelegate.swift in Sources */,
 				B7B53DC2255F0B2800F672F3 /* SceneDelegate.swift in Sources */,
 			);

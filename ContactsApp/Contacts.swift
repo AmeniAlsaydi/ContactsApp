@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 struct Contact {
-    private let firstName: String
-    private let lastName: String
+    let firstName: String
+    let lastName: String
     let phoneNumber: Int
     
     var fullName: String {
